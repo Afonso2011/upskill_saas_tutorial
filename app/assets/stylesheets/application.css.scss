@@ -58,6 +58,17 @@ h1, h2, h3 {
 }
 
 
+.navbar-default .navbar-toggle .icon-bar {
+  background: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #1CB5E0;
+  }
+}
+
 
 
 // Homepage Styles
